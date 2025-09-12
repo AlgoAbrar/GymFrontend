@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import DashboardNavbar from "../components/Dashboard/DashboardNavbar";
 import Sidebar from "../components/Dashboard/Sidebar";
-import StatCard from "../components/Dashboard/StatCard";
+// import StatCard from "../components/Dashboard/StatCard";
 import { FiUsers, FiBook, FiCheckSquare, FiCreditCard } from "react-icons/fi";
 import apiClient from "../services/api-client";
 import useAuthContext from "../hooks/useAuthContext";
