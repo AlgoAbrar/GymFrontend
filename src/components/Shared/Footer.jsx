@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img
-            src="/src/assets/images/logo.png"
+            src="../../assets/images/logo.png"
             alt="AlgoFit"
             className="h-8"
           />

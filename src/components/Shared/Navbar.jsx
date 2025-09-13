@@ -11,7 +11,11 @@ export default function Navbar() {
     <nav className="bg-black border-b border-red-600 px-6 py-3 flex items-center justify-between">
       {/* Logo */}
       <Link to="/" className="flex items-center gap-2">
-        <img src="/src/assets/images/logo.png" alt="AlgoFit" className="h-10" />
+        <img
+          src="../../assets/images/logo.png"
+          alt="AlgoFit"
+          className="h-10"
+        />
         <span className="text-red-500 font-bold text-xl">AlgoFit</span>
       </Link>
 
